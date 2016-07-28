@@ -1,0 +1,389 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body{background-image: url("dum.jpg");
+background-repeat:no-repeat;
+background-size: cover;
+background-position: center center;
+ background-attachment: fixed;}
+
+
+.main_wrapper{ 
+width:100%; 
+height:auto; 
+margin:auto;}
+
+.header_wrapper{
+	width:100%; 
+	height:85px; 
+	margin:auto;
+	background:#323232;
+	color:white;}
+
+#search{
+	float:right;
+	padding:15px;
+	padding-right:10px;
+	line-height:50px;
+	}
+
+#cats{
+	padding:0;
+	margin:0;
+	line-height:40px;
+	text-align:center;
+	text-transform:uppercase;
+	}	
+#cats a{
+	
+	text-decoration:none;
+	color:#C9BD9E;
+	padding:25px;
+	margin:5px;
+	font-size:18px;
+	font-family:DIN Next Light;
+}
+
+#cats li{
+	list-style:none;
+	display:inline;
+	
+	
+	}
+
+#cats li+li { 
+padding:4px;
+border-left: 1px solid #fff3e6
+ }
+
+#cats a:hover {
+	
+	color:#fff3e6;
+	font-weight:bolder;
+} 
+.menubar{
+	width:100%;
+	height:45px;
+	background:#323232;
+text-transform:uppercase;
+}
+
+#menu{
+	padding:0;
+	margin:0;
+	line-height:40px;
+	text-align:center;
+}
+
+#menu li{
+	list-style:none;
+	display:inline;
+	
+	
+	}
+
+#menu li+li { 
+padding:4px;
+border-left: 1px solid #fff3e6;
+ }
+
+
+
+#menu a{
+	
+	text-decoration:none;
+	color:#C9BD9E;
+	padding:25px;
+	margin:5px;
+	font-size:18px;
+	font-family:DIN Next Light;
+}
+
+#menu a:hover {
+	
+	color:#fff3e6;
+	font-weight:bolder;
+}
+
+.content_wrapper{
+	width:100%;
+	height:auto;
+	margin:auto;
+	
+}
+
+
+
+#content_area1{
+	width:100%;
+	height:600px;
+	background:transparent;
+	
+	
+}
+
+#mainheading{
+	position: absolute;
+    top: 200px;
+    left:175px;
+	font-size:93;
+	text-align:center;
+	font-family:enriqueta;
+	letter-spacing:10px;
+	color:white;
+	font-weight:bold;
+	
+}
+#subheading{
+	position: absolute;
+    top: 300px;
+    left:430px;
+	font-size:40;
+	word-spacing:10px;
+	font-family:lulo clean;
+	color:white;
+	font-weight:bold;
+	
+}
+#heading{
+	position: absolute;
+    top: 800px;
+    left:420px;
+	font-size:40;
+	font-family:Tahoma;
+	word-spacing:20px;
+	color:#AE9A64;
+	font-weight:bold;
+	
+}
+#heading1{
+	position: absolute;
+    top: 1100px;
+    left:100px;
+	width: 300px;
+	padding:15px;
+    border: 2px solid #fff3e6;
+	font-size:30;
+	font-family:Tahoma;
+	color:#AE9A64;
+	
+}
+#heading2{
+	position: absolute;
+    top: 1100px;
+    left:480px;
+	width: 300px;
+	padding:15px;
+    border: 2px solid #fff3e6;
+	font-size:30px;
+	font-family:Tahoma;
+	color:#AE9A64;
+	
+}
+#heading3{
+	position: absolute;
+    top: 1100px;
+    right:100px;
+	width: 300px;
+	padding:15px;
+    border: 2px solid #fff3e6;
+	font-size:30;
+	font-family:Tahoma;
+	color:#AE9A64;
+
+}
+#content_area2{
+	width:100%;
+	height:700px;
+	background: linear-gradient(
+      rgba(50, 50, 50, 0.9), 
+      rgba(50, 50, 50, 0.9)
+    ),url(kitchen3.jpg);
+	background-size: cover;
+	}
+#content_area3{
+	width:100%;
+	height:350px;
+	background:linear-gradient(
+      rgba(174, 154, 100, 0.9), 
+      rgba(174, 154, 100, 0.9)
+    ),url(stove.jpg);
+	background-size: cover;
+	}
+#content_area4{
+	width:100%;
+	height:350px;
+	background:linear-gradient(
+      rgba(50, 50, 50, 0.9), 
+      rgba(50, 50, 50, 0.9)
+    ),url(kitchen4.jpg);
+	background-size: cover;
+	}
+
+#page3_area1{
+	width:1200px;
+	height:100%;
+	margin:auto;
+	
+   }
+ 
+#contentpart
+{
+	width:950px;
+	height:800px;
+	background:#fff3e6;
+	float:right;
+}
+
+#sidebar{
+	width:250px;
+	height:800px;
+	background:#323232;
+	float:left;
+	
+}
+
+#sidebar_title{
+	
+	background:#2ECC40;
+	color:white;
+	font-size:22px;
+	font-family:arial;
+	padding:3px;
+	font-weight:bolder;
+}
+#account_details{
+	text-align:center;
+	
+}
+#account_details li{
+	list-style:none; 
+	
+	}
+#account_details a{
+    text-decoration:none;
+	
+	color:#fff3e6;
+	padding:8px;
+	margin:5px;
+	font-size:23px;
+	text-align:center;
+	font-family:DIN Next Light;
+}
+#account_details a:hover{
+	color:#C9BD9E;
+	font-weight:bolder;
+	
+}
+#items_box{
+	width:100%;
+	text-align:center;
+	margin-left:40px;
+}
+
+td
+{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 3px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	 border: 2px solid #4CAF50;
+}
+
+
+
+.button1:hover {
+    background-color: white; 
+    color:#4CAF50 ;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.textbox { 
+    background: white; 
+    border: 1px double #DDD; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px #333; 
+    color: #666; 
+    outline: none; 
+    height:25px; 
+    width: 225px; 
+  } 
+  
+
+#register_form{padding-left:40px;}
+
+
+#single_item{float:left; margin-left:10px; padding:10px;}
+#single_item img{border;2px solid black;}
+#shopping_cart{width:100%; height:45px; background:#323232; color:#AE9A64;}
+#footer{
+	width:100%;
+	height:10%;
+	background:white;
+	clear:both;
+	
+}
